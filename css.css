@@ -70,6 +70,16 @@ border: 1px solid #443E54;
 
 }
 
+section ul li {
+transition: transform .3s;
+
+}
+
+section ul li:hover {
+transform: scale(1.1)
+
+}
+
 section div {
 background-color: #411D5A;
 padding: 32px;
@@ -90,7 +100,7 @@ border-radius: 10px;
 
 header {
 margin-top: 32px;
-text-align: center;
+height: 152px;
     
     
 
@@ -104,8 +114,10 @@ border-radius: 50%;
 margin: auto;
 padding: 4px;
 
-
+transition: transform .3s;
 }
+
+
 
 header div img {
 width: 120px;
@@ -114,5 +126,41 @@ border-radius: 50%;
 
 }
 
+/* animação */
 
+header div:hover {
+    transform: scale(1.1);
 
+}
+
+header div {
+    animation: fromTop .7s;
+    animation-delay: 1s;
+    animation: backwards;
+}
+
+main section {
+    animation: FromBottom 7.s;
+}
+
+@keyframes fromTop {
+    from {
+        opacity: 0;
+        transform: translateY(-30px)
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+@keyframes fromBottom {
+    from {
+        opacity: 0;
+        transform: translateY(30px)
+    }
+    to {
+        opacity: 1;
+        transform: translateY(30px)
+    }
+}
