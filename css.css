@@ -1,33 +1,86 @@
 body {
 
-background-image: url(./bg.jpg);
+
 background-size: 100% auto;
 background-position: top;
 background-repeat: no-repeat;
-background-color: #060A0D;
+background-image: linear-gradient(90deg, #24063C 0%, #4F0F7F 50.52%, #400966 100%);
 
+}
+
+body * {
+font-family: 'Inter', sans-serif;
+line-height: 160%;
+}
+
+main {
+max-width: 580;
+width: 90%;
+margin: auto;
+display: flex;
+flex-direction: column;
+gap: 24px;
+margin-top: 32%;
 }
 
 
 
-.section-games {
+ul {
+list-style: none;
+
+}
+
+section ul {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 16px;
+   margin-top: 24px;
 
 
 }
 
+h2 {
+    font-weight: 900;
+    font-size: 24px;
+    letter-spacing: -0.47px;
+    color: white;
+
+}
+
+p {
+font-weight: 400;
+font-size: 16px;
+letter-spacing: -0.18px;
+color: #A1A1AA;
+
+}
 
 
-
-.section-canais {
-
+.game-list img {
+width: 90px;
+border-radius: 16px;
 
 
 }
 
-.minhas-redes {
+.section-canais img {
+width: 70px;
+border-radius: 999px;
 
+}
 
+section div {
+background-color: #411D5A;
+padding: 32px;
+padding-top: 24px;
+border-radius: 8px;
 
 
 }
 
+section {
+background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+padding-top: 4px;
+border-radius: 10px;
+
+}
