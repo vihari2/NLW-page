@@ -1,4 +1,4 @@
-# NLW09-eSports-Explorer-
-Projeto da Rocketseat. 
+
+Projeto feito no evento da Rocketseat do modo Explorer. 
  
- Página: https://vihari2.github.io/NLW-page/
+ Página: https://vihari2.github.io/NLW-page/ 
